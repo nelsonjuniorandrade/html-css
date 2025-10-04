@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+       @font-face {
+            font-family: 'Mulan';
+            src: url('fonts/CS\ Mulan\ Double.otf') format('opentype'),url('CS\ Mulan\ Regular.otf') format('opentype');
+            font-weight: bold;
+            font-style: normal;
+
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype(ttf)
+                - embedded-opentype
+                -truetype-aat (Apple Advanced Typogaphy)
+                - svg
+            
+            
+            */
+       }
+        body{
+            font-family:'Mulan', Courier, monospace
+        }
+        h1{
+            font-family:'Mulan',sans-serif ;
+            font-size: 3em;
+            font-weight: normal;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Olá Mundo!</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis ut temporibus eos vero culpa reprehenderit exercitationem minima maxime? Aperiam voluptas hic fuga rem natus quidem dicta ut dolore adipisci quasi!</p>
+</body>
+</html>

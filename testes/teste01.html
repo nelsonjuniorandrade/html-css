@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/cadastro</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+ <!--formulário de login-->
+    <div class="Formulário formulário-login ativo"> 
+            <h2 class="título-formulário">Login</h2>
+            <form class="fomautenticaçao">
+                <div class="campo-formulario">
+                    <input type="email" class="input-senha" placeholder="E-mail" required>
+                </div>
+                <div class="camoformulario">
+                    <input type="password" class="input-senha" placeholder="senha" required>
+                </div>
+                <button type="submit" class="botao-enviar">Entrar</button>
+            </form>
+            <div class="painel">
+                <h3>Não tem uma conta?</h3>
+                <p>Cadastre-se agora e faça parte da nossa comunidade!</p>
+                <button class="botao-alternar" onclick="alternarformulario()">Ir para Cadastro</button>
+            </div>
+        </div>
+<!--Formulário de cadastro-->
+    <div class="Formulario formulario-cadastro">
+    <h2 class="titulo-formulario">Cadastro</h2>
+<form class="form-cadastro">
+    <div class="campo-formulario">
+        <input type="text" class="input-nome" placeholder="Nome" required>
+    </div>
+    <div class=" campo-formulario">
+        <input type="email" class="input-email-cadastro" placeholder="E-mail" required>
+    </div>
+    <div class="campo-formulario">
+        <input type="password" class="input-senha-cadatro" placeholder="senha" required>
+    </div>
+    <button type="submit" class="botao-enviar-cadastro"> Cadastrar</button>
+</form>
+<div class="painel">
+    <h3>Já tem uma conta?</h3>
+    <p>Faça login para acessar sua conta.</p>
+    <button class="botao-alternar" onclick="alternarformulario()"> Ir para Login</button>
+    </div>
+
+</div>
+<script src="script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Orbitron:wght@400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Orbitron:wght@400..900&family=Space+Grotesk:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        /* SELETORES PERSONALIZADOS
+        #  = id
+        .  = class
+        :  = pseudo-class
+        :: pseudo-element
+        > children(filho)
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to left,#10454F,#506266,#818274);
+        }
+        h1{
+            
+            color: rgb(2, 36, 42);
+            text-align: center;
+            font-family: 'Orbitron',Arial, Helvetica, sans-serif;
+
+        }
+        main{
+            text-align:justify;
+
+        }
+        section{
+            background-color: azure;
+            border:solid 3px rgb(118, 151, 164);
+        }
+        .first{
+            background-color: #818274;
+            border-radius: 10px;
+            text-align: center;font-family:'Press Start 2P';
+            margin: 20px;
+        }
+        .second{
+            font-family: 'DynaPuff';
+            background-color:#506266 ;
+            text-align: right;
+            margin: 20px;
+        }
+        .tird{
+            font-family:'Orbitron' ;
+            background-color: #10454F;
+            text-align: left;
+            margin: 20px;
+        }
+        
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+        a::before{
+            content: '👉🏻';
+        }
+        a::after{
+            content: '👀';
+           
+        }
+    </style>
+    <title>Links</title>
+</head>
+<body>
+    <main>
+        <h1>Personalizando links</h1>
+        <ul type="square">
+            <section class="first">
+              
+            
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt sed minima modi tempore necessitatibus neque. Reiciendis, aspernatur. Fuga ipsa accusamus fugiat, enim repellendus earum explicabo iusto nisi nulla itaque repudiandae.</p>
+                <li><a target="_blank" href="https://youtu.be/eXrnR1pAc7k?si=pnflQHDHBPG-Oml9">video aleatório youtube</a></li>
+            </section>
+        
+            <section class="second">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam iure libero a, numquam excepturi sequi, dignissimos repellat dolores beatae hic quis perspiciatis harum consequatur! Illo dolores dolorum maiores temporibus consectetur.</p>
+                <li><a target="_blank" href="http://union.grupohermanos.com.br:8066/sge/index.jsp">union</a></li>
+            </section>
+           
+            <section class="tird">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque accusamus amet soluta ducimus ullam modi, reiciendis architecto corrupti ipsum magni hic distinctio facere eaque? A ut velit ex excepturi et?</p>
+                <li><a target="_blank"href="https://chatgpt.com/?utm_source=google&utm_medium=paidsearch_nonbrand&utm_campaign=GOOG_C_SEM_GNB_Core-Generic_CHT_BAU_ACQ_PER_MIX_ALL_LATAM_BR_PT_022525&utm_term=chagpt&utm_content=176757375989&utm_ad=742161128158&utm_match=b&gad_source=1&gad_campaignid=22284046004&gbraid=0AAAAA-IW-UVZmqGHpVt8W39i7yN4xtZU8&gclid=Cj0KCQjwqebEBhD9ARIsAFZMbfzGeuS_1HtxTp0NQzKUQJHpAERwycQafnV3EauIuC5aNRpo-3VCkt8aAn-AEALw_wcB">chatgpt</a></li>
+            </section> 
+        </ul>
+    </main>
+
+
+       
+</body>
+</html>

@@ -1,0 +1,22 @@
+@charset "UTF8";
+/* regra @charset "UTF8" caso haja problema de acentuação*/
+body{
+    background-color: lemonchiffon;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h1{
+    color: rgb(132, 180, 196);
+    background-color: rgb(200, 255, 133);
+}
+
+h2{
+    color: rgb(174, 255, 0);
+}
+
+p{
+    text-align: justify;
+    color: rgb(255, 0, 225);
+   text-decoration:overline;
+
+}
