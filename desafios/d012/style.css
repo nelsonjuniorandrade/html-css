@@ -17,15 +17,13 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-    height: 295px;
-  
 }
 
 header h1 {
     font-family: 'Passion One', Arial, Helvetica, sans-serif;
-    font-size: em;
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 10vw;
 }
 
 header p {
@@ -45,8 +43,9 @@ section {
     background-color: white;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    padding-left: 30px;
     font-family: 'Sriracha', Arial, Helvetica, sans-serif;
-    font-size: 40px;
+    font-size:5vh;
     text-align: justify;
     line-height: 2em;
 }
@@ -61,7 +60,10 @@ section.imagem{
 
 }
 section.imagem > p{
+    display: inline-block;
+
     background-color: rgba(0, 0, 0, 0.533);
+    padding: 6px;
     width: 400px;
 }
 
